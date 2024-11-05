@@ -20,4 +20,4 @@ jobs:
             docker build -t sudkul/sample-express-app .        
             docker tag sudkul/sample-express-app sudkul/sample-express-app:1.0.0
             echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-            docker push sudkul/sample-express-app:1.0.0
+            docker push wlink69/repo-for-circle-ci:1.0.0
